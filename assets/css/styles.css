@@ -412,9 +412,13 @@ body.dark-theme {
 }
 
 .about__img {
-  width: 280px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 0 auto;
   justify-self: center;
 }
+
 
 .about__title {
   margin-bottom: var(--mb-1);
