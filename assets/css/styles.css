@@ -1121,49 +1121,7 @@ body.dark-theme {
 }
 
 
-/* --- Final Responsive Fixes for Real Devices --- */
 
-/* About image should scale properly */
-.about__img img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  max-width: 500px;
-}
-
-/* Fix section scroll offset to avoid overlap from fixed navbar */
-#contact,
-#faq,
-#products {
-  scroll-margin-top: 4rem;
-}
-
-/* Fully bulletproof rupee and price alignment fix */
-/* Final ₹ Symbol Fix for All Devices */
-.product__price {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.25rem;
-  font-size: 1rem;
-  font-family: Arial, system-ui, sans-serif;
-  white-space: nowrap;
-  font-feature-settings: "kern";
-  color: var(--title-color); /* Dynamic based on theme */
-}
-
-.currency {
-  font-weight: 500;
-  font-size: 1rem;
-  font-family: Arial, system-ui, sans-serif;
-  color: var(--title-color); /* Dynamic */
-}
-
-.amount {
-  font-weight: 600;
-  font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
-  color: var(--title-color); /* Dynamic */
-}
 
 
 
