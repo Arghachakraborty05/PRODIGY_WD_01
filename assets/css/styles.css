@@ -1141,23 +1141,26 @@ body.dark-theme {
 /* Fully bulletproof rupee and price alignment fix */
 .product__price {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.25rem;
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif, Arial, sans-serif;
   white-space: nowrap;
   font-feature-settings: "kern";
-  letter-spacing: normal;
-  min-width: 3.5rem;
+  letter-spacing: 0;
+  color: #000; /* Ensures text is visible */
 }
 
 .currency {
   font-weight: 500;
   font-size: 1rem;
+  color: #000;  /* explicitly apply color */
+  font-family: 'Poppins', sans-serif, Arial, sans-serif;
 }
 
 .amount {
   font-weight: 600;
   font-size: 1rem;
+  color: #000;
 }
 
