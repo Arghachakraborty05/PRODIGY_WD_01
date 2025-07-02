@@ -1144,23 +1144,25 @@ body.dark-theme {
   align-items: baseline;
   gap: 0.25rem;
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif, Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   white-space: nowrap;
   font-feature-settings: "kern";
   letter-spacing: 0;
-  color: #000; /* Ensures text is visible */
+  color: #111;
 }
 
 .currency {
   font-weight: 500;
   font-size: 1rem;
-  color: #000;  /* explicitly apply color */
-  font-family: 'Poppins', sans-serif, Arial, sans-serif;
+  color: #111;
+  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .amount {
   font-weight: 600;
   font-size: 1rem;
-  color: #000;
+  color: #111;
 }
+
+
 
