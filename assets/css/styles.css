@@ -1140,20 +1140,24 @@ body.dark-theme {
 
 /* Fully bulletproof rupee and price alignment fix */
 .product__price {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  white-space: nowrap;
-  letter-spacing: 0.03em;
-  font-feature-settings: "kern";
   display: inline-flex;
-  align-items: baseline;
-  gap: 0.2rem;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  white-space: nowrap;
+  font-feature-settings: "kern";
+  letter-spacing: normal;
+  min-width: 3.5rem;
 }
 
 .currency {
   font-weight: 500;
+  font-size: 1rem;
 }
 
 .amount {
   font-weight: 600;
+  font-size: 1rem;
 }
+
