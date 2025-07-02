@@ -1139,30 +1139,32 @@ body.dark-theme {
 }
 
 /* Fully bulletproof rupee and price alignment fix */
+/* Final ₹ Symbol Fix for All Devices */
 .product__price {
   display: inline-flex;
   align-items: baseline;
   gap: 0.25rem;
   font-size: 1rem;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: Arial, system-ui, sans-serif;
   white-space: nowrap;
   font-feature-settings: "kern";
-  letter-spacing: 0;
   color: #111;
 }
 
 .currency {
   font-weight: 500;
   font-size: 1rem;
+  font-family: Arial, system-ui, sans-serif;
   color: #111;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .amount {
   font-weight: 600;
   font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
   color: #111;
 }
+
 
 
 
