@@ -1148,21 +1148,21 @@ body.dark-theme {
   font-family: Arial, system-ui, sans-serif;
   white-space: nowrap;
   font-feature-settings: "kern";
-  color: #111;
+  color: var(--title-color); /* Dynamic based on theme */
 }
 
 .currency {
   font-weight: 500;
   font-size: 1rem;
   font-family: Arial, system-ui, sans-serif;
-  color: #111;
+  color: var(--title-color); /* Dynamic */
 }
 
 .amount {
   font-weight: 600;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-  color: #111;
+  color: var(--title-color); /* Dynamic */
 }
 
 
