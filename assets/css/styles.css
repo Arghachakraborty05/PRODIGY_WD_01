@@ -1119,3 +1119,31 @@ body.dark-theme {
     right: 3rem;
   }
 }
+
+/* --- Responsive Fixes --- */
+
+.about__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 500px;
+}
+
+#contact,
+#faq,
+#products {
+  scroll-margin-top: 4rem;
+}
+
+.product__price {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2rem;
+  font-size: 1rem;
+}
+.currency {
+  font-weight: 500;
+}
+.amount {
+  font-weight: 600;
+}
