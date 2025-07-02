@@ -1120,8 +1120,10 @@ body.dark-theme {
   }
 }
 
-/* --- Responsive Fixes --- */
 
+/* --- Final Responsive Fixes for Real Devices --- */
+
+/* About image should scale properly */
 .about__img img {
   width: 100%;
   height: auto;
@@ -1129,21 +1131,29 @@ body.dark-theme {
   max-width: 500px;
 }
 
+/* Fix section scroll offset to avoid overlap from fixed navbar */
 #contact,
 #faq,
 #products {
   scroll-margin-top: 4rem;
 }
 
+/* Fully bulletproof rupee and price alignment fix */
 .product__price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+  font-feature-settings: "kern";
   display: inline-flex;
   align-items: baseline;
   gap: 0.2rem;
-  font-size: 1rem;
 }
+
 .currency {
   font-weight: 500;
 }
+
 .amount {
   font-weight: 600;
 }
