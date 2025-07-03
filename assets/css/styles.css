@@ -1148,9 +1148,9 @@ body.dark-theme {
   color: var(--title-color); /* Dynamic */
 }
 
-.section {
-  min-height: 100vh; /* fill the viewport height */
-  padding: 5.5rem 0 1rem; /* your existing padding */
+#contact {
+  scroll-margin-top: 3.5rem; /* Matches your header height */
+  padding-bottom: 2rem;      /* Optional: creates space above footer */
 }
 
 
