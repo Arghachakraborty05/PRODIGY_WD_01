@@ -1148,16 +1148,11 @@ body.dark-theme {
   color: var(--title-color); /* Dynamic */
 }
 
-/* Prevent header overlap when scrolling */
 #contact {
+  padding-top: 0 !important;
   scroll-margin-top: 3.5rem;
 }
 
-/* Remove bottom spacing from FAQ */
-.questions {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
 
 
 
