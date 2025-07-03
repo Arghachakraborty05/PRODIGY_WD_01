@@ -1148,18 +1148,7 @@ body.dark-theme {
   color: var(--title-color); /* Dynamic */
 }
 
-:root {
-  --header-height: 3.5rem;
-}
 
-/* Update this */
-.section {
-  padding: 2rem 0; /* Reduced vertical padding */
-  scroll-margin-top: var(--header-height); /* Fix scroll offset for sticky header */
-}
-.section {
-  border: 1px dashed rgba(0, 0, 0, 0.2);
-}
 
 
 
