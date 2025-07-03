@@ -873,7 +873,7 @@ body.dark-theme {
 
   .about__img {
     width: 220px;
-    height: 235px;
+    /*height: 235px;*/
   }
 
   .product__container {
