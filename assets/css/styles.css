@@ -1148,11 +1148,19 @@ body.dark-theme {
   color: var(--title-color); /* Dynamic */
 }
 
-#contact.section {
-  padding-top: 0;
-  padding-bottom: 0;
-  scroll-margin-top: var(--header-height); /* 3.5rem */
+:root {
+  --header-height: 3.5rem;
 }
+
+/* Update this */
+.section {
+  padding: 2rem 0; /* Reduced vertical padding */
+  scroll-margin-top: var(--header-height); /* Fix scroll offset for sticky header */
+}
+.section {
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
 
 
 
