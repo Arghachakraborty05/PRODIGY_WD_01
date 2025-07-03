@@ -1148,12 +1148,16 @@ body.dark-theme {
   color: var(--title-color); /* Dynamic */
 }
 
+/* Prevent header overlap when scrolling */
 #contact {
-  scroll-margin-top: 3.5rem; /* Matches your header height */
-  padding-bottom: 2rem;      /* Optional: creates space above footer */
+  scroll-margin-top: 3.5rem;
 }
 
-
+/* Remove bottom spacing from FAQ */
+.questions {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
 
 
