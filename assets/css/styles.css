@@ -1148,10 +1148,12 @@ body.dark-theme {
   color: var(--title-color); /* Dynamic */
 }
 
-#contact {
-  padding-top: 0 !important;
-  scroll-margin-top: 3.5rem;
+#contact.section {
+  padding-top: 0;
+  padding-bottom: 0;
+  scroll-margin-top: var(--header-height); /* 3.5rem */
 }
+
 
 
 
